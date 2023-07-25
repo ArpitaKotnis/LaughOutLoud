@@ -1,16 +1,16 @@
 # LaughOutLoud
-#It's a trial 
 import random
 
 # Define the possible choices
 choices = ["snake", "water", "gun"]
 
-user_choice = input("Enter your choice (snake, water, gun): ").lower()
+user_choice = input("Enter your choice swg: ").lower()
 
 computer_choice = random.choice(choices)
 
 if user_choice == computer_choice:
-  print("Tie!")
+  print("Same bro try again lol")
+  
 elif user_choice == "snake":
   if computer_choice == "water":
     print("You win!")
